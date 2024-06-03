@@ -10,7 +10,7 @@ const Bio = () => {
                     animate={{ x: 0 }}
                     transition={{ type: 'spring', stiffness: 50 }}
                 >
-                    <img src="src/assets/profil.jpg" alt="Marchand Loan" className="rounded-full w-48 h-48 mx-auto md:mx-0" />
+                    <img src="/profil.jpg" alt="Marchand Loan" className="rounded-full w-48 h-48 mx-auto md:mx-0" />
                 </motion.div>
                 <motion.div
                     className="md:w-2/3 text-center md:text-left"
