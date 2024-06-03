@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Tilt {
+    transition: transform 0.2s ease-in-out;
+}
+
+.Tilt:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+
+.Tilt-inner {
+    will-change: transform;
+}
